@@ -1,0 +1,16 @@
+dependencies:
+  dht11_lib:
+    dependencies: []
+    source:
+      path: /home/laxa/repo/laxa/embedded-firmware-test/04_dht11_driver/components/dht11_lib
+      type: local
+    version: '*'
+  idf:
+    source:
+      type: idf
+    version: 5.5.1
+direct_dependencies:
+- dht11_lib
+manifest_hash: b2c63cf9c7a23893c1eb283186e85ff01f421fc58dce7408c826b8dbd19ab061
+target: esp32c3
+version: 2.0.0

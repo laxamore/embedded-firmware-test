@@ -1,0 +1,3 @@
+dependencies:
+  dht11_lib:
+    path: ../components/dht11_lib
